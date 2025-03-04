@@ -1,0 +1,9 @@
+name: chatgpt_env
+channels:
+  - defaults
+  - conda-forge  # Optional: add if you need packages from conda-forge
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - openai
